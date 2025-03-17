@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import Image from 'next/image';
-import { useState } from 'react';
+import Image from "next/image";
+import { useState } from "react";
 
-export default function ZoomImage({ src, alt }) {
+export default function ZoomImage({ src, alt }: { src: string; alt: string }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleFullscreen = () => {
