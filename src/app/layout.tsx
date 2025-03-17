@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { GeistSans } from "geist/font/sans"; // import font
 import "./globals.css";
+import NavBar from "@/components/nav-bar";
+import Footer from "@/components/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { FaWhatsappSquare } from "react-icons/fa";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,11 +18,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html
+      lang="en"
+      className={`${GeistSans.className} antialiased dark:bg-gray-950`}
+    >
+      <body>
+        <div className="fixed text-green-500 top-3/6 right-10 max-sm:top-11/12 max-sm:right-1">
+          <Link
+            href="https://wa.me/5511956083860?text=Oi%2C%20quero%20conhecer%20a%20academia!"
+            target="_blank"
+            aria-current="page"
+            key="contatos"
+          >
+            <FaWhatsappSquare size={40} />
+          </Link>
+        </div>
+        <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
