@@ -10,10 +10,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navigation = [
-  { name: "HOME", href: "/", current: true },
-  { name: "HORÁRIOS", href: "/horarios", current: false },
-  { name: "SOBRE", href: "/sobre", current: false },
-  { name: "PLANOS", href: "/planos", current: false },
+  { name: "HOME", href: "/andrei-agostinho-bjj", current: true },
+  { name: "HORÁRIOS", href: "/andrei-agostinho-bjj/horarios", current: false },
+  { name: "SOBRE", href: "/andrei-agostinho-bjj/sobre", current: false },
+  { name: "PLANOS", href: "andrei-agostinho-bjj/planos", current: false },
 ];
 
 export default function NavBar() {
