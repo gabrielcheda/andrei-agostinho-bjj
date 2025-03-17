@@ -23,7 +23,7 @@ export default function RootLayout({
       className={`${GeistSans.className} antialiased dark:bg-gray-950`}
     >
       <body>
-        <div className="fixed text-green-500 top-3/6 right-10 max-sm:top-11/12 max-sm:right-1">
+        <div className="fixed text-green-500 top-3/6 right-10 max-sm:top-11/12 max-sm:right-1 z-[999]">
           <Link
             href="https://wa.me/5511956083860?text=Oi%2C%20quero%20conhecer%20a%20academia!"
             target="_blank"
