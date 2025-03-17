@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="flex sm:justify-center items-center">
             <div className="h-48 w-56">
               <Image
-                src={"https://gabrielcheda.github.io/andrei-agostinho-bjj/logo.png"}
+                src={"/logo.png"}
                 alt="Logo andrei jiu jitsu"
                 fill={true}
                 className="!static"
@@ -68,6 +68,7 @@ export default function Footer() {
             <Link
               href="https://www.instagram.com/equipe_andreibjj/"
               className="me-6 [&>svg]:h-4 [&>svg]:w-4"
+              target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
