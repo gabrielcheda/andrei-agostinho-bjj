@@ -76,7 +76,7 @@ export default function Sobre() {
             </div>
           </div>
           <Image
-            src="/andrei-sozinho.jpg"
+            src="https://gabrielcheda.github.io/andrei-agostinho-bjj/andrei-sozinho.jpg"
             alt={""}
             width={0}
             height={250}

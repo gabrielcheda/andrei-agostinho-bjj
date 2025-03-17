@@ -14,7 +14,7 @@ export default function Home() {
       <main className="flex flex-col space-y-8 mb-25">
         <div className="w-full  max-sm:hidden ">
           <Image
-            src="/PHOTO-2025-03-17-13-43-19.jpg"
+            src="https://gabrielcheda.github.io/andrei-agostinho-bjj/PHOTO-2025-03-17-13-43-19.jpg"
             alt={""}
             width={0}
             height={600}
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
           </div>
           <Image
-            src="/lizardo-faixa.png"
+            src="https://gabrielcheda.github.io/andrei-agostinho-bjj/lizardo-faixa.png"
             alt={""}
             width={0}
             height={250}
@@ -87,7 +87,7 @@ export default function Home() {
 
         <div className="w-full max-sm:hidden ">
           <Image
-            src="/treino-meninas.jpg"
+            src="https://gabrielcheda.github.io/andrei-agostinho-bjj/treino-meninas.jpg"
             alt={""}
             width={0}
             height={600}
@@ -106,6 +106,9 @@ export default function Home() {
                 Treine em um espaço de alto nível, nossa academia oferece um ambiente
                 estruturado e acolhedor, onde o Jiu-Jitsu se torna mais do que
                 uma arte marcial é um estilo de vida.
+              </p>
+              <p className="text-2xl font-bold">
+                VENHA CONHECER!
               </p>
             </div>
             <div className="flex justify-center flex-col my-5 space-y-6 ">
