@@ -4,7 +4,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   basePath: '/andrei-agostinho-bjj',
   trailingSlash: true,
-  output: "export",  // <=== habilita o export estático,
+  output: "export", 
   eslint: {
     ignoreDuringBuilds: true
   },
@@ -13,4 +13,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default nextConfig; 
